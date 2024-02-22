@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+<h1>Projeto Restaurante Cacupé</h1> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
 
-## Available Scripts
+> Status do Projeto: :heavy_check_mark:
 
-In the project directory, you can run:
+### Tópicos 
 
-### `npm start`
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+:small_blue_diamond: [Funcionalidades](#Funcionalidades)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+:small_blue_diamond: [Layout da Aplicação](#Layout-da-aplicação-dash)
 
-### `npm test`
+:small_blue_diamond: [Pré-requisitos](#Pré-requisitos)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:small_blue_diamond: [Como rodar a aplicação](#Como-rodar-a-aplicação-arrow_forward)
 
-### `npm run build`
+:small_blue_diamond: [Como rodar os testes](#Como-rodar-os-testes)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+:small_blue_diamond: [Casos de Uso](#Casos-de-Uso)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+:small_blue_diamond: [Iniciando e Configurando banco de dados](#Iniciando-e-Configurando-banco-de-dados)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+:small_blue_diamond: [Linguagens e dependências utilizadas](#Linguagens-e-dependências-utilizadas)
 
-### `npm run eject`
+:small_blue_diamond: [Técnicas e tecnologias utilizadas](#Técnicas-e-tecnologias-utilizadas)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+:small_blue_diamond: [Tarefas em aberto](#Tarefas-em-aberto)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+:small_blue_diamond: [Acesso ao projeto](#Acesso-ao-projeto)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+:small_blue_diamond: [Colaborações e Agradecimentos](#Colaborações-e-Agradecimentos)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+:small_blue_diamond: [Copyright](#Copyright)
 
-## Learn More
+## Descrição do projeto 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="justify">
+   Projeto de Website tipo SPA (Single Page Aplication) para Restaurante, visando a prática com a linguagem JavaScript, websites SPA, por meio do Framework React.js. As folhas de estilo foram trabalhadas com a tecnologia CSS. O Webiste possui quatro abas, sendo elas a Home, Menu, Localização do Restaurante e Área de Contato. 
+</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Funcionalidades
 
-### Code Splitting
+:heavy_check_mark: Funcionalidade 1  Botão para a Home: Na Navbar, ao clicar no logotipo do Restaurante o usuário é direcionado para a Home Page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+:heavy_check_mark: Funcionalidade 2  Botão para realização de pedidos: Na página de Menu, abaixo de cada produto é disponibilizado botão que redireciona o usuário para site externo.
 
-### Analyzing the Bundle Size
+:heavy_check_mark: Funcionalidade 3  Google Maps: Na página de Localização do restaurante é disponibilizado um mini mapa da Localização, sendo possível dar zoom e/ou clicar no mapa para que este abra em aba externa.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+:heavy_check_mark: Funcionalidade 4  Formulário para contato: Na página de Contato é disponibilizado Formulário de Contato com botão de envio. O formulário contém os seguintes campos de preenchimento: Nome, e-mail (campo de preenchimento obrigatório) e mensagem.
 
-### Making a Progressive Web App
+:heavy_check_mark: Funcionalidade 5  Botões de acesso às Redes Sociais: No Rodapé do Website é disponibilizado dois botões que direcionam aos links das Redes Sociais Facebook e Instagram.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Layout da Aplicação :dash:
 
-### Advanced Configuration
+https://github.com/CherLuza/restaurantecacupe/assets/139655842/5659e927-fccd-4839-a3be-b016dd39d149
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Pré-requisitos
 
-### Deployment
+- [Node](https://nodejs.org/en/download/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Como rodar a aplicação :arrow_forward:
 
-### `npm run build` fails to minify
+No terminal, clone o projeto: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+``` 
+git clone https://github.com/CherLuza/restauranteprojeto.git
+```
+
+## Como rodar os testes
+
+Não é necessário executar testes.
+
+## Casos de Uso
+
+Os casos de uso não se aplicam a este projeto.
+
+## Iniciando e Configurando banco de dados
+
+Não foi utilizado banco de dados neste repositório.
+
+## Linguagens e dependências utilizadas
+
+- [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+- [Bootstrap](https://react-bootstrap.netlify.app/)
+
+## Técnicas e tecnologias utilizadas
+
+- [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html) ``React.js versão 6``
+- [Bootstrap](https://react-bootstrap.netlify.app/)
+- [Node](https://nodejs.org/en/download/)
+- [JavaScript]
+- [HTML5]
+- [CSS3]
+
+## Tarefas em aberto
+
+:memo: Tarefa 1 Formulário de contato necessita de futura conexão Backend para receber e trabalhar com os dados preenchidos.
+
+## Acesso ao projeto
+Você pode acessar os arquivos do projeto neste projeto atual.
+
+## Colaborações e Agradecimentos
+Agradecimentos ao professor Matheus Battisti (https://github.com/matheusbattisti), que tornou possível a execução deste projeto por meio de vídeo do seu canal no Youtube e a disponibilização do código fonte do projeto, bem como à desenvolvedora Regina Diana (https://gist.github.com/reginadiana) que disponibilizou o código fonte com o formato para este README.
+
+## Copyright 
+
+Copyright :copyright: 2024 - Cher Oliboni Luza
