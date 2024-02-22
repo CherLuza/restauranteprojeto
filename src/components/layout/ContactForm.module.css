@@ -1,0 +1,51 @@
+.form_text {
+    display: flex;
+  }
+  .form_text div {
+    flex: 1;
+  }
+  
+  .text_intro_form { 
+    padding: 1rem;
+    color: #212529;
+    font-size: 20px;
+    text-align: justify;
+    }
+  
+  .text_intro_form span {
+    color: #dfd8d8;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 22px;
+    width: 500px;
+    height: 200px;  
+    color:  #881a1a;
+    margin: auto;
+   padding: 13rem;
+   }
+  
+  .text_form {
+    font-size: 1em;
+    color: #881a1a;
+    border-radius: 10px;
+    border-color: none;
+    }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    color:#e5dccc;
+    background: #6B3C20;
+    text-decoration: none;
+    border-radius: 3rem;
+    border-color:#fff;  
+    font-family: Alex Brush;
+  }
+  
+  
