@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/restauranteprojeto/static/css/main.b60e7570.css",
+    "main.js": "/restauranteprojeto/static/js/main.47e2da95.js",
+    "static/media/macarrao01a.jpg": "/restauranteprojeto/static/media/macarrao01a.47c3e745532d10340941.jpg",
+    "static/media/macarrao02.jpg": "/restauranteprojeto/static/media/macarrao02.42fa17489321cb4c6ae4.jpg",
+    "static/media/macarrao01.jpg": "/restauranteprojeto/static/media/macarrao01.b9fc770fe1fa689bc8c1.jpg",
+    "static/media/planodefundo.jpeg": "/restauranteprojeto/static/media/planodefundo.0d4ff53d07c3ccbbbc6b.jpeg",
+    "static/media/macarrao04.jpg": "/restauranteprojeto/static/media/macarrao04.28998347e71c27d342ac.jpg",
+    "static/media/macarrao03a.jpg": "/restauranteprojeto/static/media/macarrao03a.02930174daf4682c9774.jpg",
+    "static/media/macarrao02a.jpg": "/restauranteprojeto/static/media/macarrao02a.1ffe7522270ca32f0fb8.jpg",
+    "static/media/macarrao03.jpg": "/restauranteprojeto/static/media/macarrao03.28efa16549d104158a75.jpg",
+    "index.html": "/restauranteprojeto/index.html",
+    "main.b60e7570.css.map": "/restauranteprojeto/static/css/main.b60e7570.css.map",
+    "main.47e2da95.js.map": "/restauranteprojeto/static/js/main.47e2da95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b60e7570.css",
+    "static/js/main.47e2da95.js"
+  ]
+}
