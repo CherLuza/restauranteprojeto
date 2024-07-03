@@ -40,7 +40,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-   Projeto de Website tipo SPA (Single Page Aplication) para Restaurante, visando a prática com a linguagem JavaScript, websites SPA, por meio do Framework React.js. As folhas de estilo foram trabalhadas com a tecnologia CSS. O Webiste possui quatro abas, sendo elas a Home, Menu, Localização do Restaurante e Área de Contato. 
+   Projeto de Website tipo SPA (Single Page Aplication) para Restaurante, visando a prática com a linguagem JavaScript, websites SPA, por meio do Framework React.js. As folhas de estilo foram trabalhadas com a tecnologia CSS. O Website possui quatro abas, sendo elas a Home, Menu, Localização do Restaurante e Área de Contato. 
 </p>
 
 ## Funcionalidades
